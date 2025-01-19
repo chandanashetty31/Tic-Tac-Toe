@@ -61,7 +61,16 @@ color: black;
     height: 15vmin;
     
 }
-@media (min-width: 250px) and (max-width: 290px) {
+@media (min-width: 350px) and (max-width: 990px) {
+    #reset-btn{
+        position: absolute;
+        top :50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        
+    }
+  }
+  @media (min-width: 700px) and (max-width: 1400px) {
     #reset-btn{
         position: absolute;
         top :60%;
